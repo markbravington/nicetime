@@ -1,0 +1,20 @@
+export( "cbind.POSIXct",
+"Days",
+"Hours",
+"Minutes",
+"monseq",
+"rbind.POSIXct",
+"Seconds",
+"Weeks",
+"ydays",
+"years",
+"Years")
+import( utils, except=c("help","?"))
+import( mvbutils)
+S3method( "cbind", "POSIXct")
+S3method( "rbind", "POSIXct")
+S3method( "length<-", "POSIXct")
+S3method( "ydays", "POSIXt")
+S3method( "years", "Date")
+S3method( "years", "POSIXt")
+

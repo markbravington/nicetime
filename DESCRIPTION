@@ -1,0 +1,8 @@
+Package: nicetime
+Title: Nicer handling of POSIXct
+Version: 1.0.38
+Author: M.V. Bravington
+Description: Nicer handling of POSIXct: matrices, default units, convenience time-gaps
+Maintainer: <markb2@summerinsouth.net>
+Imports: utils, mvbutils
+License: GPL-2

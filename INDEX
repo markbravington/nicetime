@@ -1,0 +1,5 @@
+nicetime-package                    Nicer handling of POSIXct objects
+Hours                               Sorting out times and time difference
+monseq                              Months spanning a time range
+rbind.POSIXct                       rbind and cbind methods for POSIXct
+ydays                               Extractor functions for POSIXct objects
