@@ -4,7 +4,7 @@
 \docType{package}
 \title{Nicer handling of POSIXct objects}
 \description{
-Package \pkg{nicetime} provides nicer handling of \code{POSIXct} variables. To do these good things, it has to overwrite the base-R versions of \code{difftime}, \code{+.POSIXt}, \code{-.POSIXt}, \code{head.matrix}, and \code{tail.matrix} (or it used to do that, anyway; not sure nowadays). This is wicked, vile behaviour, which will never ever be allowed on CRAN; I find it extremely useful. Note that \code{nicetime} is quite an old package, and I have not tried to update it or check it since about 2014. It may well have some dicey features; nevertheless, it might still be useful. Use at your own risk, like always.
+Package \pkg{nicetime} provides nicer handling of \code{POSIXct} variables. To do these good things, it has to overwrite the base-R versions of \code{difftime}, \code{+.POSIXt}, \code{-.POSIXt}, \code{head.matrix}, and \code{tail.matrix} (or it used to do that, anyway; not sure nowadays). This is wicked, vile behaviour, which will never ever be allowed on CRAN; I find it extremely useful. Note that \code{nicetime} is quite an old package, and I have not tried to update it or check it since about 2014 (there might be better ways to do some of the sneaky bits). It may well have some dicey features; nevertheless, it might still be useful. Use at your own risk, like always but more so. But it does give you:
 
 \itemize{
 \item sensible arithmetic without nanny watching, e.g. \code{Sys.time() + Hours(1)}
